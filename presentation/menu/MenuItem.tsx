@@ -38,7 +38,7 @@ const MenuItem = ({ title, icon, name, isFirst = false, isLast = false }: Props)
         >
             <View className='flex-row items-center'>
                 <Ionicons name={icon} size={30} color={primaryColor} className='mr-5' />
-                <ThemeText type='h2'>
+                <ThemeText type='normal'>
                     {title}
                 </ThemeText>
             </View>
